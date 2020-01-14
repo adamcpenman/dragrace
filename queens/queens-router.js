@@ -14,16 +14,40 @@ router.get('/', (req, res) => {
         })
 })
 
-router.get('/:id/quotes', (req, res) => {
-    const { id } = req.params;
+router.get('/:id/queens_season', (req, res) => {
+    const { id } = req.params
 
-    Queens.getSeasons(id)
-        .then(quote => {
-            res.status(200).json(quote)
+    Queens.getQueenSeason(id)
+        .then(season => {
+            res.status(200).json(season)
+            })
+            .catch(err => {
+                res.status(500).json({ err: "Failed to get the Queen with her season"})
+            })
         })
-        .catch(err => {
-            res.status(500).json({ err: "Failed to get Queen's quote"})
+
+router.get('/:id/season', (req, res) => {
+    const { id } = req.params
+
+    Queens.getSingleSeason(id)
+        .then(season => {
+            res.status(200).json(season)
+            })
+            .catch(err => {
+                res.status(500).json({ err: "Failed to get the Queen with her season"})
+            })
         })
-})
+
+// router.get('/:id/quotes', (req, res) => {
+//     const { id } = req.params;
+
+//     Queens.getQuotes(id)
+//         .then(quote => {
+//             res.status(200).json(quote)
+//         })
+//         .catch(err => {
+//             res.status(500).json({ err: "Failed to get Queen's quote"})
+//         })
+// })
 
 module.exports = router;

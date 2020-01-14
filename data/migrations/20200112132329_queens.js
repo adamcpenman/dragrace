@@ -3,7 +3,28 @@ exports.up = async function(knex) {
     await knex.schema.createTable("the_queens", (table) => {
         table.increments('id')
         table.string("queens_name").notNullable()
-        table.integer("season").notNullable()
+        // table.integer("season").notNullable()
+        // table.string("rank").notNullable()
+    })
+    await knex.schema.createTable("the_seasons", (table) => {
+        table.increments("id")
+        table.string("season_num").notNullable()
+    })
+    await knex.schema.createTable("queens_seasons", (table) => {
+        table.integer("queen_id")
+            .unsigned()
+            .notNullable()
+            .references("id")
+            .inTable("the_queens")
+            .onDelete("CASCADE")
+            .onUpdate("CASCADE") 
+        table.integer("season_id")
+            .unsigned()
+            .notNullable()
+            .references("id")
+            .inTable("the_seasons")
+            .onDelete()
+            .onUpdate()
     })
     await knex.schema.createTable("the_quotes", (table) => {
         table.increments("id")
@@ -34,5 +55,7 @@ exports.up = async function(knex) {
 exports.down = async function(knex) {
     await knex.schema.dropTableIfExists("queen_quotes")
     await knex.schema.dropTableIfExists("the_quotes")
+    await knex.schema.dropTableIfExists("queens_seasons")
+    await knex.schema.dropTableIfExists("the_seasons")
     await knex.schema.dropTableIfExists("the_queens")
 };
