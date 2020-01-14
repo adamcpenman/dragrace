@@ -22,7 +22,7 @@ async function getSingleSeason(id) {
    .where("s.id", id)
    .join("queens_seasons as qs", "s.id", "qs.season_id")
    .join("the_queens as q", "q.id", "qs.queen_id")
-   .select("q.queens_name", "s.season_num")
+   .select("q.queens_name")
     return kween
 }
 

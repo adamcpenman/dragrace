@@ -69,6 +69,95 @@ exports.seed = async (knex) => {
         {queens_name:"Roxxxy Andrews" },
         {queens_name:"Alaska" },
         {queens_name:"Jinkx Monsoon"}, //61
+//6th season
+        {queens_name:"Kelly Mantle" }, //62
+        {queens_name:"Magnolia Crawford" },
+        {queens_name:"Vivacious" },
+        {queens_name:"April Carrion" },
+        {queens_name:"Gia Gunn" },
+        {queens_name:"Milk" },
+        {queens_name:"Laganja Estranja" },
+        {queens_name:"Trinity K. Bonet" },
+        {queens_name:"Joslyn Fox" },
+        {queens_name:"BenDeLaCreme" },
+        {queens_name:"Darienne Lake" },
+        {queens_name:"Courtney Act" },
+        {queens_name:"Adore Delano" },
+        {queens_name:"Bianca Del Rio"}, //75
+//7th season
+        {queens_name:"Tempest DuJour" }, //76
+        {queens_name:"Sasha Belle" },
+        {queens_name:"Jasmine Masters" },
+        {queens_name:"Mrs. Kasha Davis" },
+        {queens_name:"Kandy Ho" },
+        {queens_name:"Max" },
+        {queens_name:"Jaidynn Diore Fierce" },
+        {queens_name:"Miss Fame" },
+        {queens_name:"Trixie Mattel" },
+        {queens_name:"Katya" },
+        {queens_name:"Kennedy Davenport" },
+        {queens_name:"Pearl" },
+        {queens_name:"Ginger Ming" },
+        {queens_name:"Violet Chachki"}, //89
+//8th season
+        {queens_name:"Laila McQueen" }, //90
+        {queens_name:"Dax ExclamationPoint" },
+        {queens_name:"Cynthia Lee Fontaine" },
+        {queens_name:"Naysha Lopez" },
+        {queens_name:"Acid Betty" },
+        {queens_name:"Robbie Turner" },
+        {queens_name:"Thorgy Thor" },
+        {queens_name:"Derrick Barry" },
+        {queens_name:"Chi Chi DeVayne" },
+        {queens_name:"Naomi Smalls" },
+        {queens_name:"Kim Chi" },
+        {queens_name:"Bob the Drag Queen" }, //101
+//9th season
+        {queens_name:"Jaymes Mansfield" }, //102
+        {queens_name:"Kimora Blac" },
+        {queens_name:"Charlie Hides" },
+        {queens_name:"Eureka" },
+        {queens_name:"Cynthia Lee Fontaine" },
+        {queens_name:"Aja" },
+        {queens_name:"Farrah Moan" },
+        {queens_name:"Valentina" },
+        {queens_name:"Nina Bo'nina Brown" },
+        {queens_name:"Alexis Michelle" },
+        {queens_name:"Shea Coulee" },
+        {queens_name:"Trinity Taylor" }, 
+        {queens_name:"Peppermint" },
+        {queens_name:"Sasha Velour" }, //115
+//10th season
+        {queens_name:"Vanessa Vanjie Mateo" }, //116
+        {queens_name:"Kalorie Karbdashian-Williams" },
+        {queens_name:"Yuhua Hamasaki" },
+        {queens_name:"Dusty Ray Bottoms" },
+        {queens_name:"Mayhem Miller" },
+        {queens_name:"Blair St. Clair" },
+        {queens_name:"Monique Heart" },
+        {queens_name:"The Vixen" },
+        {queens_name:"Monet X Change" },
+        {queens_name:"Miz Cracker" },
+        {queens_name:"Asia O'Hara" },
+        {queens_name:"Kameron Michaels" }, 
+        {queens_name:"Eureka" },
+        {queens_name:"Aquaria" }, //129
+//11th season
+        {queens_name:"Soju" }, //130
+        {queens_name:"Kahanna Montrese" },
+        {queens_name:"Honey Davenport" },
+        {queens_name:"Mercedes Iman Diamond" },
+        {queens_name:"Ariel Versace" },
+        {queens_name:"Scarlet Envy" },
+        {queens_name:"Ra'Jah O'Hara" },
+        {queens_name:"Plastique Tiara" },
+        {queens_name:"Shuga Cain" },
+        {queens_name:"Nina West" },
+        {queens_name:"Vanessa Vanjie Mateo" },
+        {queens_name:"Silky Nutmeg Ganache" }, 
+        {queens_name:"A'keria C. Davenport" },
+        {queens_name:"Brooke Lynn Hytes" },
+        {queens_name:"Yvie Oddly" }, //144
         
     ])
 }
