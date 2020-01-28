@@ -1,15 +1,17 @@
+
+
 exports.seed = async (knex) => {
     await knex("the_queens").insert([
 //1st season
-        {queens_name:"Victoria 'Porkchop' Parker" }, //1
-        {queens_name:"Tammie Brown" }, 
-        {queens_name:"Akashia" }, 
-        {queens_name:"Jade" }, 
-        {queens_name:"Ongina" },
-        {queens_name:"Shannel" },
-        {queens_name:"Rebecca Glasscock" },
-        {queens_name:"Nina Flowers" },
-        {queens_name:"BeBe Zahara Benet" },//9
+        {queens_name:"Victoria 'Porkchop' Parker", img_url:"http://localhost:5000/queenImages/s1/Porkchop.png" }, //1
+        {queens_name:"Tammie Brown" , img_url:"http://localhost:5000/queenImages/s1/TammieBrown.png" }, 
+        {queens_name:"Akashia" , img_url:"http://localhost:5000/queenImages/s1/Akashia.png"  }, 
+        {queens_name:"Jade" , img_url:"http://localhost:5000/queenImages/s1/Jade.png"  }, 
+        {queens_name:"Ongina" , img_url:"http://localhost:5000/queenImages/s1/Ongina.png"  },
+        {queens_name:"Shannel" , img_url:"http://localhost:5000/queenImages/s1/Shannel.png"  },
+        {queens_name:"Rebecca Glasscock" , img_url:"http://localhost:5000/queenImages/s1/RebeccaGlasscock.png"  },
+        {queens_name:"Nina Flowers" , img_url:"http://localhost:5000/queenImages/s1/NinaFlowers.png"  },
+        {queens_name:"BeBe Zahara Benet" , img_url:"http://localhost:5000/queenImages/s1/BebeZaharaBenet.png"  },//9
 
 //2nd season
         {queens_name:"Shangela Laquifa Wadley" }, //10
