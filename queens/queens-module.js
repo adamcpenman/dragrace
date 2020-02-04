@@ -11,7 +11,7 @@ async function getQueenSeason(id) {
    .where("q.id", id)
    .join("queens_seasons as qs", "q.id", "qs.queen_id")
    .join("the_seasons as s", "s.id", "qs.season_id")
-   .select("q.queens_name", "s.season_num")
+   .select("q.queens_name", "s.season_num", "q.img_url")
     return kween
 }
 

@@ -14,18 +14,18 @@ exports.seed = async (knex) => {
         {queens_name:"BeBe Zahara Benet" , img_url:"http://localhost:5000/queenImages/s1/BebeZaharaBenet.png"  },//9
 
 //2nd season
-        {queens_name:"Shangela Laquifa Wadley" }, //10
-        {queens_name:"Nicole Paige Brooks" },
-        {queens_name:"Mystique Summers Madison" },
-        {queens_name:"Sonique" },
-        {queens_name:"Morgan McMichaels" },
-        {queens_name:"Sahara Davenport" },
-        {queens_name:"Jessica Wild" },
-        {queens_name:"Pandora Boxx" },
-        {queens_name:"Tatianna" },
-        {queens_name:"Jujubee" },
-        {queens_name:"Raven" },
-        {queens_name:"Tyra Sanchez" }, //21
+        {queens_name:"Shangela Laquifa Wadley" , img_url:"http://localhost:5000/queenImages/s2/Shangela.png"   }, //10
+        {queens_name:"Nicole Paige Brooks" , img_url:"http://localhost:5000/queenImages/s2/Nicole_Paige_Brooks.jpg"   },
+        {queens_name:"Mystique Summers Madison" , img_url:"http://localhost:5000/queenImages/s2/Mystique.jpg"   },
+        {queens_name:"Sonique" , img_url:"http://localhost:5000/queenImages/s2/Soniques.png"   },
+        {queens_name:"Morgan McMichaels" , img_url:"http://localhost:5000/queenImages/s2/Morgan_McMichaels.jpg"   },
+        {queens_name:"Sahara Davenport" , img_url:"http://localhost:5000/queenImages/s2/Sahara_Davenport.jpg"   },
+        {queens_name:"Jessica Wild" , img_url:"http://localhost:5000/queenImages/s2/Jessica_Wild.jpg"   },
+        {queens_name:"Pandora Boxx" , img_url:"http://localhost:5000/queenImages/s2/Pandora_Boxx.jpg"   },
+        {queens_name:"Tatianna" , img_url:"http://localhost:5000/queenImages/s2/Tatianna.jpg"   },
+        {queens_name:"Jujubee" , img_url:"http://localhost:5000/queenImages/s2/Jujubee.jpg"   },
+        {queens_name:"Raven" , img_url:"http://localhost:5000/queenImages/s2/Raven.jpg"   },
+        {queens_name:"Tyra Sanchez" , img_url:"http://localhost:5000/queenImages/s2/Tyra_Sanches.png"   }, //21
 
 //3th season
         {queens_name:"Venus D-Lite" }, //22
