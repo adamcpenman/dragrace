@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
         })
 })
 
-router.get('/:id/queens_season', (req, res) => {
+router.get('/:id/', (req, res) => {
     const { id } = req.params
 
     Queens.getQueenSeason(id)

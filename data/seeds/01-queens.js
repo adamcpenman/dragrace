@@ -1,8 +1,8 @@
 exports.seed = async (knex) => {
     await knex("the_queens").insert([
 //1st season
-        {queens_name:"Victoria 'Porkchop' Parker", img_url:"'../../Images/S1/Porkchop.png'" }, //1
-        {queens_name:"Tammie Brown" , img_url:"" }, 
+        {queens_name:"Victoria 'Porkchop' Parker", img_url:"/Images/Porkchop.png"}, //1
+        {queens_name:"Tammie Brown" , img_url:"https://dragrace-queens.herokuapp.com/Images/TammieBrown.png" }, 
         {queens_name:"Akashia" , img_url:"http://localhost:5000/queenImages/s1/Akashia.png"  }, 
         {queens_name:"Jade" , img_url:"http://localhost:5000/queenImages/s1/Jade.png"  }, 
         {queens_name:"Ongina" , img_url:"http://localhost:5000/queenImages/s1/Ongina.png"  },
