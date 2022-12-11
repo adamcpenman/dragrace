@@ -12,7 +12,7 @@
     "url": "git+https://github.com/adamcpenman/dragrace"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gitignore": "^0.6.0",
     "helmet": "^3.21.2",
     "knex": "^0.20.7",
